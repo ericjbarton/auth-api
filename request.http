@@ -1,10 +1,22 @@
+@jwt = 
+
 ### User Create
 Post http://localhost:3000/users.json
 Content-Type: application/json
 
 {
-  "name": "Ohio Jones",
-  "email": "i_wouldn't_hire_me_either@example.com",
+  "name": "Vermont Jones",
+  "email": "tiny_farms@example.com",
   "password": "password",
   "password_confirmation": "password"
 }
+
+### Sessions Create
+Post http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "beautiful_lakes_awful_football@example.com",
+  "password": "password"
+}
+
